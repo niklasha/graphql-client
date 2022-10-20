@@ -10,3 +10,6 @@ members = [
     # Example crates.
     "examples/*",
 ]
+
+[patch.crates-io]
+openssl-sys = { git = "https://github.com/vishwin/rust-openssl" }
